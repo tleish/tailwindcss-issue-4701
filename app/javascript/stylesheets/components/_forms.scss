@@ -1,5 +1,5 @@
 .input {
-  @apply appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-300 rounded py-3 px-4 leading-tight;
+  @apply appearance-none block w-full bg-gray-100 text-gray-700 border-gray-300 py-3 px-4 leading-tight;
 }
 
 .input:focus {
@@ -11,8 +11,8 @@
 }
 
 .select {
-  @apply appearance-none py-3 px-4 pr-8 block w-full bg-gray-100 border border-gray-300 text-gray-700
-  rounded leading-tight;
+  @apply appearance-none py-3 px-4 pr-8 block w-full bg-gray-100 border-gray-300 text-gray-700
+  leading-tight;
   -webkit-appearance: none;
 }
 

@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'aasm'
 
 # View
-gem 'webpacker', '>= 4.0.0'
+gem 'webpacker', '6.0.0.beta.7'
 gem 'turbolinks', '~> 5'
 # gem 'inline_svg' if using svg files
 

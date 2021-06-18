@@ -1,5 +1,16 @@
 module.exports = {
     prefix: '',
+    mode: 'jit',
+    purge: {
+        content: [
+            './app/packs/**/*.{js,css,scss}',
+            './app/views/**/*.erb',
+            '{blog,admin}/app/views/**/*.erb',
+        ],
+        options: {
+            whitelist: [],
+        },
+    },
     important: false,
     separator: ':',
     theme: {
